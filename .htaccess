@@ -1,0 +1,9 @@
+ErrorDocument 404 /handlers/errors.php
+DirectoryIndex pages/index.php
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^michel-adam$ pages/michel-adam.php [NC]
+    RewriteRule ^([^\.]+)$ pages/$1.php [NC]
+</IfModule>

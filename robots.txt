@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+User-agent: *
+Disallow: /privacy-policy
+
+
+User-agent: *
+Disallow: /terms-and-conditions
+
+Sitemap: https://www.ftvapparels.in/sitemap.xml
