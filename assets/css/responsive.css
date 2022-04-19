@@ -121,12 +121,12 @@
     border-left-color: #000;
     border-right-width: 0;
   }
+  
   .content {
     font-size: 4rem;
-  }
-  .content {
-    top: 10em;
+    top: 6em;
     left: 50%;
+    height: 80%;
     text-align: center;
     transform: translate(-50%, -50%);
   }
@@ -180,6 +180,17 @@
   text-shadow: 4px 5px 10px #000;
   color: var(--white);
 }
+.about-page,
+.index-page {
+  padding-top: 80px;
+}
+.cd-slider li,
+.cd-slider{
+  height: 75vh;
+}
+.cd-slider{
+  margin-bottom: 6rem;
+}
 }
 
 @media screen and (max-width: 425px) {
@@ -187,10 +198,13 @@
     font-size: 12.5vw;
   }
   .button-wrapper .swiper-button {
-    width: 10px;
+    width: 30px;
   }
   .button-wrapper {
     padding: 0 5px;
+  }
+  .page-padding{
+    padding-top: 52px;
   }
   .index2-section .index2-content h1 {
     font-size: 16.5vw;
@@ -201,6 +215,10 @@
   .c-image-slider .p-title,
   .contact-content .contact-title {
     font-size: 14vw;
+  }
+  .center .bottle-bg {
+    width: 80vw;
+    height: 60vh;
   }
 }
 

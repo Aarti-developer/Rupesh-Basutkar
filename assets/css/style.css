@@ -690,7 +690,7 @@ video {
   background-color: var(--green);
 } */
 .index-page {
-  margin-top: 130px;
+  padding-top: 130px;
 }
 
 .main-wrapper .main-title {
@@ -701,10 +701,12 @@ video {
   font-size: 1.3rem;
   letter-spacing: 2px;
   text-align: center;
+  color: var(--white);
   padding-bottom: 1rem;
 }
 .index2-section .index2-content h1 {
   font-size: 5.5vw;
+  color: var(--white);
   text-align: center;
 }
 .index2-section .index2-content p {
@@ -825,7 +827,7 @@ video {
 .contact-content .contact-title {
   font-size: 6vw;
 }
-
+.about-page,
 .contact-page {
   background-color: var(--black);
 }
