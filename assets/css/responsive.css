@@ -30,6 +30,17 @@
   .button-wrapper .swiper-button span {
     /* transform: rotate(-90deg); */
     -webkit-writing-mode: vertical-lr;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+  }
+  .button-wrapper .swiper-button span:hover i{
+
+    transform: scaleY(2);
+  }
+  .button-wrapper .swiper-button span i{
+    transform: scaleY(1.5);
   }
   .swiper-pagination {
     right: 45%;
@@ -67,7 +78,7 @@
     padding: 1.5rem 2rem;
   }
   .pc_links-main {
-    width: 85%;
+    width: 100vw;
   }
   .pc_innerdiv .pc_logo a h4 {
     font-size: 1.6rem;
@@ -217,8 +228,11 @@
     font-size: 14vw;
   }
   .center .bottle-bg {
-    width: 80vw;
+    width: 70vw;
     height: 60vh;
+  }
+  .pc_innerdiv .pc_logo a h4 {
+    font-size: 1.1rem;
   }
 }
 
@@ -226,9 +240,7 @@
 }
 
 @media screen and (max-width: 320px) {
-  .pc_links-main {
-    width: 100%;
-  }
+  
   .footer-content .email-type {
     font-size: 0.8rem;
     gap: 2px;
