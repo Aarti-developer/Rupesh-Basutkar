@@ -46,7 +46,7 @@
     right: 45%;
     top: 0px;
   }
-
+.explore1-content h1,
   .main-wrapper .main-title {
     font-size: 9.5vw;
   }
@@ -65,12 +65,13 @@
   .center .bottle-bg {
     width: 88vw;
     height: 505px;
-    border-radius: 10px;
     margin: 0 auto;
   }
   .button-wrapper {
     padding: 0 20px;
   }
+/* .explore1-content h1{} */
+.explore1-content h1,
   .main-wrapper .main-title {
     font-size: 11.5vw;
   }
@@ -202,10 +203,13 @@
 .cd-slider{
   margin-bottom: 6rem;
 }
+.cal-img .galleryItem img {
+  height: 180px;
+}
 }
 
 @media screen and (max-width: 425px) {
-  .main-wrapper .main-title {
+  .explore1-content h1 {
     font-size: 12.5vw;
   }
   .button-wrapper .swiper-button {
@@ -232,8 +236,18 @@
     height: 60vh;
   }
   .pc_innerdiv .pc_logo a h4 {
-    font-size: 1.1rem;
+    font-size: .9rem;
   }
+  .content{
+    top: 2em;
+  }
+  .cd-slider li,
+.cd-slider{
+  height: 300px;
+}
+.cal-img .galleryItem img {
+  height: 120px;
+}
 }
 
 @media screen and (max-width: 375px) {
@@ -249,6 +263,6 @@
     width: 98%;
   }
   .pc_innerdiv .pc_logo a h4 {
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
 }
