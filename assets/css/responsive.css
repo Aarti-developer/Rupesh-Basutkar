@@ -248,6 +248,9 @@
 .cal-img .galleryItem img {
   height: 120px;
 }
+.index2-section .index2-content p {
+  font-size: 1rem;
+}
 }
 
 @media screen and (max-width: 375px) {
