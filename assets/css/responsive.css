@@ -251,6 +251,9 @@
 .index2-section .index2-content p {
   font-size: 1rem;
 }
+.pc_links-main .pc_innerlink .pc-links_nav .pc-links li a{
+  font-size: 1rem;
+}
 }
 
 @media screen and (max-width: 375px) {
