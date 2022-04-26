@@ -204,6 +204,7 @@ video {
   top: 0;
   left: 0;
   border-bottom: 1px solid #0005;
+  background-color: var(--white);
 }
 
 .pc_links-main {
@@ -344,10 +345,9 @@ video {
   color: #fff5;
   font-size: 12px;
 }
-.pc_innerdiv .pc_logo a h4{
+.pc_innerdiv .pc_logo a h4 {
   font-family: "Poppins-regular";
   font-size: 1.2rem;
-  
 }
 .pc_links-main .pc_innerlink .pc-links_nav .pc-links li a {
   font-family: "Poppins-regular";
@@ -589,7 +589,7 @@ video {
   left: auto;
   top: 100px;
   width: auto;
-  opacity: .7;
+  opacity: 0.7;
   bottom: auto;
   z-index: 2;
   font-size: 14px;
@@ -600,7 +600,7 @@ video {
   position: absolute;
   right: 30px;
   bottom: 20px;
-  z-index: 0;
+  z-index: 2;
   display: flex;
   align-items: center;
 }
@@ -621,7 +621,7 @@ video {
   background-position: right bottom;
   transition: all 0.8s ease-out;
   cursor: pointer;
-  opacity: .7;
+  opacity: 0.7;
 }
 .button-wrapper .swiper-button + .swiper-button {
   margin-left: 16px;
@@ -700,7 +700,7 @@ video {
   padding-top: 130px;
 }
 
-.main-wrapper .main-title1 a{
+.main-wrapper .main-title1 a {
   font-size: 1.2rem;
 }
 .main-wrapper .main-title {
@@ -721,6 +721,7 @@ video {
 }
 .index2-section .index2-content p {
   padding: 0.7rem 0;
+  font-size: 1.2rem;
 }
 .index2-section .index2-content p,
 .index2-section .index2-content {
@@ -1108,12 +1109,12 @@ aside {
   z-index: 8;
 }
 
-.slide__heading .slide__heading-sub{
+.slide__heading .slide__heading-sub {
   text-align: center;
   text-transform: uppercase;
   display: block;
 }
-.slide__heading .travel-heading{
+.slide__heading .travel-heading {
   display: block;
   text-align: center;
   font-weight: bold;
@@ -1121,23 +1122,64 @@ aside {
   text-transform: uppercase;
 }
 
-.travel-section .travel-link ul li a{
+.travel-section .travel-link ul li a {
   display: block;
   font-size: 1.3rem;
   text-transform: uppercase;
   font-weight: 600;
 }
-.travel-section .travel-link ul{
+.travel-section .travel-link ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 15px;
-
 }
-.travel-section{
+.travel-section {
   background: url(../media/images/bgimg.png) no-repeat center;
   background-size: cover;
   padding: 5rem 0;
   background-attachment: fixed;
+}
+.project1-section {
+  position: relative;
+}
+.swiper-pagination.swp_custom-pagination {
+  top: 25px;
+}
+
+.project-slider-image h1 a {
+  color: var(--white);
+}
+.swiper-slide-active .project-slider-image h1 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  text-align: center;
+  font-size: 3.5vw;
+  animation: textanim 1.2s forwards;
+  text-shadow: 5px 5px 8px #000;
+}
+.project-slider-image {
+  position: relative;
+}
+
+
+@keyframes textanim {
+  from {
+    opacity: 0;
+    /* transform: scale(0) translate(-50%,-50%); */
+    transform: translateY(-50px) translate(-50%, -50%);
+    transition: transform 5s ease-in-out;
+    transition-delay: 10s;
+  }
+  to {
+    /* transform: scale(1.2) translate(-50%,-50%); */
+    transform: translateY(0) translate(-50%, -50%);
+    transition: transform 5s ease-in-out;
+    opacity: 1;
+    transition-delay: 10s;
+  }
 }

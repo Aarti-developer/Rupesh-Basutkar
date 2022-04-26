@@ -212,6 +212,9 @@
   .explore1-content h1 {
     font-size: 12.5vw;
   }
+  .index2-section .index2-content p {
+    font-size: 1rem;
+  }
   .button-wrapper .swiper-button {
     width: 30px;
   }
@@ -247,9 +250,6 @@
 }
 .cal-img .galleryItem img {
   height: 120px;
-}
-.index2-section .index2-content p {
-  font-size: 1rem;
 }
 .pc_links-main .pc_innerlink .pc-links_nav .pc-links li a{
   font-size: 1rem;
