@@ -346,11 +346,11 @@ video {
   font-size: 12px;
 }
 .pc_innerdiv .pc_logo a h4 {
-  font-family: "Poppins-regular";
+  font-family: "NewYork";
   font-size: 1.2rem;
 }
 .pc_links-main .pc_innerlink .pc-links_nav .pc-links li a {
-  font-family: "Poppins-regular";
+  font-family: "NewYork";
   display: block;
   font-size: 1.5rem;
   color: var(--white);
@@ -596,18 +596,31 @@ video {
   /* font-family: var(--body-font); */
   font-weight: 500;
 }
-.button-wrapper {
+/* .button-wrapper {
   position: absolute;
   right: 30px;
   bottom: 20px;
   z-index: 2;
   display: flex;
   align-items: center;
-}
+} */
 .button-wrapper svg {
   width: 28px;
 }
-
+.button-wrapper .swiper-prev-button,
+.button-wrapper .swiper-next-button{
+  position: absolute;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  top: 50%;
+}
+.button-wrapper .swiper-prev-button{
+  left: 12px;
+}
+.button-wrapper .swiper-next-button{
+  right: 12px;
+}
 .button-wrapper .swiper-button {
   /* border: 1px solid var(--black); */
   border-radius: 50%;
@@ -1141,6 +1154,9 @@ aside {
   padding: 5rem 0;
   background-attachment: fixed;
 }
+.project1-section > .container{
+  padding: 0;
+}
 .project1-section {
   position: relative;
 }
@@ -1162,8 +1178,12 @@ aside {
   animation: textanim 1.2s forwards;
   text-shadow: 5px 5px 8px #000;
 }
+.project-slider-image img{
+  height: 450px;
+}
 .project-slider-image {
   position: relative;
+  width: 100%;
 }
 
 
