@@ -346,11 +346,11 @@ video {
   font-size: 12px;
 }
 .pc_innerdiv .pc_logo a h4 {
-  font-family: "NewYork";
+  font-family: "Poppins-regular";
   font-size: 1.2rem;
 }
 .pc_links-main .pc_innerlink .pc-links_nav .pc-links li a {
-  font-family: "NewYork";
+  font-family: "Poppins-regular";
   display: block;
   font-size: 1.5rem;
   color: var(--white);
@@ -1112,8 +1112,7 @@ aside {
 .social_link ul li a {
   display: block;
 }
-.social_link ul li {
-}
+/* .social_link ul li {} */
 .social_link {
   position: fixed;
   bottom: 200px;
